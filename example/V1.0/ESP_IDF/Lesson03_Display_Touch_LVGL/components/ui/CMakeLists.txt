@@ -1,0 +1,6 @@
+file(GLOB UI_SOURCES "*.c")
+idf_component_register(
+    SRCS ${UI_SOURCES}
+    INCLUDE_DIRS "."
+    REQUIRES lvgl
+)

@@ -1,0 +1,18 @@
+#ifndef LV_CONF_H
+#define LV_CONF_H
+#define LV_COLOR_DEPTH 16
+#define LV_USE_STDLIB_MALLOC LV_STDLIB_BUILTIN
+#define LV_USE_LOG 1
+#define LV_LOG_LEVEL LV_LOG_LEVEL_WARN
+#define LV_USE_ASSERT_NULL 1
+#define LV_USE_ASSERT_MALLOC 1
+#define LV_USE_THEME_DEFAULT 1
+#define LV_USE_LABEL 1
+#define LV_USE_BUTTON 1
+#define LV_USE_SLIDER 1
+#define LV_USE_BAR 1
+#define LV_USE_IMAGE 1
+#define LV_USE_ARC 1
+#define LV_FONT_MONTSERRAT_14 1
+#define LV_FONT_DEFAULT &lv_font_montserrat_14
+#endif
